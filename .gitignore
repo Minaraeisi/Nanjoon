@@ -46,7 +46,3 @@ demos/nardial/tts_cache/*
 
 # Ignore local_test_sync_folder
 demos/desktop/local_test_sync_folder
-
-assets/audio
-assets/images
-assets/videos
