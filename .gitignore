@@ -1,0 +1,52 @@
+# Ignore generated files
+*.rdb
+*.p
+*.pyc
+*.log
+*.egg-info
+*.DS_Store
+*.pt
+
+# ignore apk files
+*.apk
+
+# Ignore generated folders
+appendonlydir/
+
+# Keep some folders
+!.keepme
+
+# Ignore Eclipse/Pycharm stuff
+.buildpath
+.project
+.settings
+.idea
+
+# Ignore egg files
+sic_framework.egg-info/
+
+sic_framework/services/face_recognition_dnn/resnet50_ft_weight_old.pt
+
+# Ignore build folder
+build
+
+# Ignore dialogflow keyfiles
+conf/dialogflow/*.json
+
+#ignore .env file
+conf/.env
+conf/openai/.openai_env
+
+# Ignore dialogflow keyfiles
+conf/google/*.json
+
+# NarDial files
+demos/nardial/participants/*
+demos/nardial/tts_cache/*
+
+# Ignore local_test_sync_folder
+demos/desktop/local_test_sync_folder
+
+assets/audio
+assets/images
+assets/videos
