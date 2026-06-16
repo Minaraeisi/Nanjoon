@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+        body {
+            margin: 0;
+            background: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .grid {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .option {
+            width: 220px;
+            border: 8px solid #dddddd;
+            border-radius: 25px;
+            padding: 15px;
+            background: #f7f7f7;
+            box-sizing: border-box;
+        }
+
+        .option img {
+            width: 170px;
+            height: 170px;
+            object-fit: contain;
+        }
+
+        .letter {
+            font-size: 42px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .debug {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Find: EYE</h1>
+
+    <div class="grid">
+
+        <div class="option">
+            <img
+                src="/static/user_assets/images/ear.png"
+                onerror="this.outerHTML='<div class=debug>EAR NOT FOUND</div>';">
+            <div class="letter">A</div>
+        </div>
+
+        <div class="option">
+            <img
+                src="/static/user_assets/images/eye.png"
+                onerror="this.outerHTML='<div class=debug>EYE NOT FOUND</div>';">
+            <div class="letter">B</div>
+        </div>
+
+        <div class="option">
+            <img
+                src="/static/user_assets/images/toes.png"
+                onerror="this.outerHTML='<div class=debug>TOES NOT FOUND</div>';">
+            <div class="letter">C</div>
+        </div>
+
+    </div>
+
+</body>
+</html>

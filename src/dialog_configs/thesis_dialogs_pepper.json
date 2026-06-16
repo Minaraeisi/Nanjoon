@@ -1,0 +1,1130 @@
+[
+  {
+    "id": "welcome_and_name",
+    "type": "narrative",
+    "thread": "session1",
+    "position": 1,
+    "characters": {
+      "Narrator": {
+        "voice_settings": {
+          "google_tts_voice_name": "en-US-Standard-H",
+          "google_tts_voice_gender": "FEMALE",
+          "speaking_rate": 0.9
+        }
+      }
+    },
+    "moves": [
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Hi! I am your English learning robot."
+      },
+      {
+        "type": "ask_open",
+        "character": "Narrator",
+        "text": "What is your name?",
+        "set_variable": "student_name"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Nice to meet you %student_name%."
+      }
+    ]
+  },
+  {
+    "id": "session1_story_intro",
+    "type": "narrative",
+    "thread": "session1",
+    "position": 2,
+    "characters": {
+      "Narrator": {
+        "voice_settings": {
+          "google_tts_voice_name": "en-US-Standard-H",
+          "google_tts_voice_gender": "FEMALE",
+          "speaking_rate": 0.9
+        }
+      },
+      "Ginger": {
+        "voice_settings": {
+          "google_tts_voice_name": "en-US-Standard-C",
+          "google_tts_voice_gender": "FEMALE",
+          "speaking_rate": 1.0
+        }
+      },
+      "Torob": {
+        "voice_settings": {
+          "google_tts_voice_name": "en-US-Standard-D",
+          "google_tts_voice_gender": "MALE",
+          "speaking_rate": 1.0
+        }
+      },
+      "Jojo": {
+        "voice_settings": {
+          "google_tts_voice_name": "en-US-Standard-E",
+          "google_tts_voice_gender": "MALE",
+          "speaking_rate": 1.05
+        }
+      },
+      "Shila": {
+        "voice_settings": {
+          "google_tts_voice_name": "en-US-Standard-F",
+          "google_tts_voice_gender": "FEMALE",
+          "speaking_rate": 1.0
+        }
+      },
+      "Koko": {
+        "voice_settings": {
+          "google_tts_voice_name": "en-US-Standard-G",
+          "google_tts_voice_gender": "FEMALE",
+          "speaking_rate": 1.05
+        }
+      },
+      "Simo": {
+        "voice_settings": {
+          "google_tts_voice_name": "en-US-Standard-J",
+          "google_tts_voice_gender": "MALE",
+          "speaking_rate": 0.9
+        }
+      },
+      "All": {
+        "voice_settings": {
+          "google_tts_voice_name": "en-US-Standard-H",
+          "google_tts_voice_gender": "FEMALE",
+          "speaking_rate": 0.95
+        }
+      }
+    },
+    "moves": [
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Chapter one. The Magic Pass."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Ginger looks at the crack."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/open_crack.png"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/dinosaur_roar_real.wav"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "The secret password is a body part. Then, what can the secret password be?"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "The friends look at each other."
+      },
+      {
+        "type": "say",
+        "character": "Torob",
+        "text": "Maybe... eye?"
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/eye.png"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Eye? Are you sure?"
+      },
+      {
+        "type": "say",
+        "character": "Torob",
+        "text": "Yes... eye..."
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Eye... eye... eye..."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/closed_crack.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "They wait. Nothing. The crack is still closed."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/not_eye.png"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "No... not eye."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/ear.png"
+      },
+      {
+        "type": "say",
+        "character": "Simo",
+        "text": "Maybe ear."
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "Yes... ear... we hear!"
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "Like Simo, I say ear!"
+      },
+      {
+        "type": "say",
+        "character": "Simo",
+        "text": "Then... ear..."
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Ear... ear... ear..."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "They wait. Nothing."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/dinosaur_roar_real.wav"
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/not_ear.png"
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "No... not ear!"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Shila thinks and says:"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Maybe nose..."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/nose.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Ginger quickly says:"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Yes! Nose!"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Let's try nose..."
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Nose... nose... nose..."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "The crack shakes a little."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/moving_stone.wav"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Everyone stops."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/not_nose.png"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "It moves... but no... not nose!"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Not opened... try more."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/mouth.png"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Try mouth."
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "Mouth?"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Yes... mouth..."
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Mouth..."
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Mouth... mouth... mouth..."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/open_crack.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "The crack opens a little. Light comes out. Everyone is excited."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/cheering_crowd.wav"
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "It works! It works!"
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/not_mouth.png"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Not mouth. More... say more!"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Ginger steps closer to the glowing crack. It sparkles and hums softly."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/magic_hum.wav"
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/lips.png"
+      },
+      {
+        "type": "say",
+        "character": "Torob",
+        "text": "Maybe... lips?"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Lips?"
+      },
+      {
+        "type": "say",
+        "character": "Torob",
+        "text": "Liiips..."
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Lips... lips... lips..."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "They freeze and wait. Nothing."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/not_lips.png"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Nooo... not lips!"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/toes.png"
+      },
+      {
+        "type": "say",
+        "character": "Koko",
+        "text": "Wait! Maybe toes!"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Toes..."
+      },
+      {
+        "type": "say",
+        "character": "Koko",
+        "text": "Toes!"
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Toes... toes... toes..."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "They hold their breath. The wall flickers just a tiny bit."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/not_toes.png"
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "Hmm... not toes..."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/face.png"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Oh... face..."
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Yes... like Shila... face!"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Let's try face."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Ginger takes a deep breath."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Face..."
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Face... face... face..."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/cheering_crowd.wav"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      }
+    ]
+  },
+  {
+    "id": "session1_qna_practice",
+    "type": "narrative",
+    "thread": "session1",
+    "position": 3,
+    "characters": {
+      "Narrator": {
+        "voice_settings": {
+          "google_tts_voice_name": "en-US-Standard-H",
+          "google_tts_voice_gender": "FEMALE",
+          "speaking_rate": 0.9
+        }
+      }
+    },
+    "moves": [
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Great! Now let us practice the magic body words."
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/eye.png"
+      },
+      {
+        "type": "ask_open",
+        "character": "Narrator",
+        "text": "What is it?",
+        "set_variable": "q1_answer",
+        "outcomes": { "eye": "q1_correct" },
+        "default_outcome": "q1_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "q1_correct": [
+            { "type": "say", "character": "Narrator", "text": "Eye. Eye." },
+            { "type": "show_image", "src": "assets/images/green_check.png" },
+            { "type": "play", "audio": "assets/audio/clap.wav" },
+            { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+            { "type": "timed_wait", "duration_seconds": 2.5 }
+          ],
+          "q1_wrong": [
+            { "type": "show_image", "src": "assets/images/red_cross.png" },
+            { "type": "say", "character": "Narrator", "text": "Mmmm, think again." },
+            {
+              "type": "ask_open",
+              "character": "Narrator",
+              "text": "What is it?",
+              "set_variable": "q1_answer_second",
+              "outcomes": { "eye": "q1_second_correct" },
+              "default_outcome": "q1_second_wrong"
+            },
+            {
+              "type": "branch",
+              "on": "outcome",
+              "cases": {
+                "q1_second_correct": [
+                  { "type": "say", "character": "Narrator", "text": "Eye. Eye." },
+                  { "type": "show_image", "src": "assets/images/green_check.png" },
+                  { "type": "play", "audio": "assets/audio/clap.wav" },
+                  { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+                  { "type": "timed_wait", "duration_seconds": 2.5 }
+                ],
+                "q1_second_wrong": [
+                  { "type": "say", "character": "Narrator", "text": "Good try. It is eye." }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/ear.png"
+      },
+      {
+        "type": "ask_open",
+        "character": "Narrator",
+        "text": "What is it?",
+        "set_variable": "q2_answer",
+        "outcomes": { "ear": "q2_correct" },
+        "default_outcome": "q2_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "q2_correct": [
+            { "type": "say", "character": "Narrator", "text": "Ear. Ear." },
+            { "type": "show_image", "src": "assets/images/green_check.png" },
+            { "type": "play", "audio": "assets/audio/clap.wav" },
+            { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+            { "type": "timed_wait", "duration_seconds": 2.5 }
+          ],
+          "q2_wrong": [
+            { "type": "show_image", "src": "assets/images/red_cross.png" },
+            { "type": "say", "character": "Narrator", "text": "Mmmm, think again." },
+            {
+              "type": "ask_open",
+              "character": "Narrator",
+              "text": "What is it?",
+              "set_variable": "q2_answer_second",
+              "outcomes": { "ear": "q2_second_correct" },
+              "default_outcome": "q2_second_wrong"
+            },
+            {
+              "type": "branch",
+              "on": "outcome",
+              "cases": {
+                "q2_second_correct": [
+                  { "type": "say", "character": "Narrator", "text": "Ear. Ear." },
+                  { "type": "show_image", "src": "assets/images/green_check.png" },
+                  { "type": "play", "audio": "assets/audio/clap.wav" },
+                  { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+                  { "type": "timed_wait", "duration_seconds": 2.5 }
+                ],
+                "q2_second_wrong": [
+                  { "type": "say", "character": "Narrator", "text": "Good try. It is ear." }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/nose.png"
+      },
+      {
+        "type": "ask_open",
+        "character": "Narrator",
+        "text": "What is it?",
+        "set_variable": "q3_answer",
+        "outcomes": { "nose": "q3_correct" },
+        "default_outcome": "q3_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "q3_correct": [
+            { "type": "say", "character": "Narrator", "text": "Nose. Nose." },
+            { "type": "show_image", "src": "assets/images/green_check.png" },
+            { "type": "play", "audio": "assets/audio/clap.wav" },
+            { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+            { "type": "timed_wait", "duration_seconds": 2.5 }
+          ],
+          "q3_wrong": [
+            { "type": "show_image", "src": "assets/images/red_cross.png" },
+            { "type": "say", "character": "Narrator", "text": "Mmmm, think again." },
+            {
+              "type": "ask_open",
+              "character": "Narrator",
+              "text": "What is it?",
+              "set_variable": "q3_answer_second",
+              "outcomes": { "nose": "q3_second_correct" },
+              "default_outcome": "q3_second_wrong"
+            },
+            {
+              "type": "branch",
+              "on": "outcome",
+              "cases": {
+                "q3_second_correct": [
+                  { "type": "say", "character": "Narrator", "text": "Nose. Nose." },
+                  { "type": "show_image", "src": "assets/images/green_check.png" },
+                  { "type": "play", "audio": "assets/audio/clap.wav" },
+                  { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+                  { "type": "timed_wait", "duration_seconds": 2.5 }
+                ],
+                "q3_second_wrong": [
+                  { "type": "say", "character": "Narrator", "text": "Good try. It is nose." }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/mouth.png"
+      },
+      {
+        "type": "ask_open",
+        "character": "Narrator",
+        "text": "What is it?",
+        "set_variable": "q4_answer",
+        "outcomes": { "mouth": "q4_correct" },
+        "default_outcome": "q4_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "q4_correct": [
+            { "type": "say", "character": "Narrator", "text": "Mouth. Mouth." },
+            { "type": "show_image", "src": "assets/images/green_check.png" },
+            { "type": "play", "audio": "assets/audio/clap.wav" },
+            { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+            { "type": "timed_wait", "duration_seconds": 2.5 }
+          ],
+          "q4_wrong": [
+            { "type": "show_image", "src": "assets/images/red_cross.png" },
+            { "type": "say", "character": "Narrator", "text": "Mmmm, think again." },
+            {
+              "type": "ask_open",
+              "character": "Narrator",
+              "text": "What is it?",
+              "set_variable": "q4_answer_second",
+              "outcomes": { "mouth": "q4_second_correct" },
+              "default_outcome": "q4_second_wrong"
+            },
+            {
+              "type": "branch",
+              "on": "outcome",
+              "cases": {
+                "q4_second_correct": [
+                  { "type": "say", "character": "Narrator", "text": "Mouth. Mouth." },
+                  { "type": "show_image", "src": "assets/images/green_check.png" },
+                  { "type": "play", "audio": "assets/audio/clap.wav" },
+                  { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+                  { "type": "timed_wait", "duration_seconds": 2.5 }
+                ],
+                "q4_second_wrong": [
+                  { "type": "say", "character": "Narrator", "text": "Good try. It is mouth." }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/lips.png"
+      },
+      {
+        "type": "ask_open",
+        "character": "Narrator",
+        "text": "What is it?",
+        "set_variable": "q5_answer",
+        "outcomes": { "lips": "q5_correct" },
+        "default_outcome": "q5_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "q5_correct": [
+            { "type": "say", "character": "Narrator", "text": "Lips. Lips." },
+            { "type": "show_image", "src": "assets/images/green_check.png" },
+            { "type": "play", "audio": "assets/audio/clap.wav" },
+            { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+            { "type": "timed_wait", "duration_seconds": 2.5 }
+          ],
+          "q5_wrong": [
+            { "type": "show_image", "src": "assets/images/red_cross.png" },
+            { "type": "say", "character": "Narrator", "text": "Mmmm, think again." },
+            {
+              "type": "ask_open",
+              "character": "Narrator",
+              "text": "What is it?",
+              "set_variable": "q5_answer_second",
+              "outcomes": { "lips": "q5_second_correct" },
+              "default_outcome": "q5_second_wrong"
+            },
+            {
+              "type": "branch",
+              "on": "outcome",
+              "cases": {
+                "q5_second_correct": [
+                  { "type": "say", "character": "Narrator", "text": "Lips. Lips." },
+                  { "type": "show_image", "src": "assets/images/green_check.png" },
+                  { "type": "play", "audio": "assets/audio/clap.wav" },
+                  { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+                  { "type": "timed_wait", "duration_seconds": 2.5 }
+                ],
+                "q5_second_wrong": [
+                  { "type": "say", "character": "Narrator", "text": "Good try. It is lips." }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/toes.png"
+      },
+      {
+        "type": "ask_open",
+        "character": "Narrator",
+        "text": "What is it?",
+        "set_variable": "q6_answer",
+        "outcomes": { "toes": "q6_correct" },
+        "default_outcome": "q6_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "q6_correct": [
+            { "type": "say", "character": "Narrator", "text": "Toes. Toes." },
+            { "type": "show_image", "src": "assets/images/green_check.png" },
+            { "type": "play", "audio": "assets/audio/clap.wav" },
+            { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+            { "type": "timed_wait", "duration_seconds": 2.5 }
+          ],
+          "q6_wrong": [
+            { "type": "show_image", "src": "assets/images/red_cross.png" },
+            { "type": "say", "character": "Narrator", "text": "Mmmm, think again." },
+            {
+              "type": "ask_open",
+              "character": "Narrator",
+              "text": "What is it?",
+              "set_variable": "q6_answer_second",
+              "outcomes": { "toes": "q6_second_correct" },
+              "default_outcome": "q6_second_wrong"
+            },
+            {
+              "type": "branch",
+              "on": "outcome",
+              "cases": {
+                "q6_second_correct": [
+                  { "type": "say", "character": "Narrator", "text": "Toes. Toes." },
+                  { "type": "show_image", "src": "assets/images/green_check.png" },
+                  { "type": "play", "audio": "assets/audio/clap.wav" },
+                  { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+                  { "type": "timed_wait", "duration_seconds": 2.5 }
+                ],
+                "q6_second_wrong": [
+                  { "type": "say", "character": "Narrator", "text": "Good try. It is toes." }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/face.png"
+      },
+      {
+        "type": "ask_open",
+        "character": "Narrator",
+        "text": "What is it?",
+        "set_variable": "q7_answer",
+        "outcomes": { "face": "q7_correct" },
+        "default_outcome": "q7_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "q7_correct": [
+            { "type": "say", "character": "Narrator", "text": "Face. Face." },
+            { "type": "show_image", "src": "assets/images/green_check.png" },
+            { "type": "play", "audio": "assets/audio/clap.wav" },
+            { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+            { "type": "timed_wait", "duration_seconds": 2.5 }
+          ],
+          "q7_wrong": [
+            { "type": "show_image", "src": "assets/images/red_cross.png" },
+            { "type": "say", "character": "Narrator", "text": "Mmmm, think again." },
+            {
+              "type": "ask_open",
+              "character": "Narrator",
+              "text": "What is it?",
+              "set_variable": "q7_answer_second",
+              "outcomes": { "face": "q7_second_correct" },
+              "default_outcome": "q7_second_wrong"
+            },
+            {
+              "type": "branch",
+              "on": "outcome",
+              "cases": {
+                "q7_second_correct": [
+                  { "type": "say", "character": "Narrator", "text": "Face. Face." },
+                  { "type": "show_image", "src": "assets/images/green_check.png" },
+                  { "type": "play", "audio": "assets/audio/clap.wav" },
+                  { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+                  { "type": "timed_wait", "duration_seconds": 2.5 }
+                ],
+                "q7_second_wrong": [
+                  { "type": "say", "character": "Narrator", "text": "Good try. It is face." }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/ear.png"
+      },
+      {
+        "type": "ask_open",
+        "character": "Narrator",
+        "text": "Eye or ear?",
+        "set_variable": "q8_answer",
+        "outcomes": { "ear": "q8_correct" },
+        "default_outcome": "q8_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "q8_correct": [
+            { "type": "say", "character": "Narrator", "text": "Ear. Ear." },
+            { "type": "show_image", "src": "assets/images/green_check.png" },
+            { "type": "play", "audio": "assets/audio/clap.wav" },
+            { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+            { "type": "timed_wait", "duration_seconds": 2.5 }
+          ],
+          "q8_wrong": [
+            { "type": "show_image", "src": "assets/images/red_cross.png" },
+            { "type": "say", "character": "Narrator", "text": "Mmmm, think again." },
+            {
+              "type": "ask_open",
+              "character": "Narrator",
+              "text": "Eye or ear?",
+              "set_variable": "q8_answer_second",
+              "outcomes": { "ear": "q8_second_correct" },
+              "default_outcome": "q8_second_wrong"
+            },
+            {
+              "type": "branch",
+              "on": "outcome",
+              "cases": {
+                "q8_second_correct": [
+                  { "type": "say", "character": "Narrator", "text": "Ear. Ear." },
+                  { "type": "show_image", "src": "assets/images/green_check.png" },
+                  { "type": "play", "audio": "assets/audio/clap.wav" },
+                  { "type": "show_html", "html": "<video src='/static/assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+                  { "type": "timed_wait", "duration_seconds": 2.5 }
+                ],
+                "q8_second_wrong": [
+                  { "type": "say", "character": "Narrator", "text": "Good try. It is ear." }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Great practice! You finished the magic body words."
+      }
+    ]
+  },
+  {
+    "id": "session1_kahoot",
+    "type": "narrative",
+    "thread": "session1",
+    "position": 2,
+    "characters": {
+      "Narrator": {
+        "voice_settings": {
+          "google_tts_voice_name": "en-US-Standard-H",
+          "google_tts_voice_gender": "FEMALE",
+          "speaking_rate": 0.9
+        }
+      }
+    },
+    "moves": [
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Now let's play the fast picture game!"
+      },
+
+      {
+        "type": "show_html",
+        "html": "<script>function sendAnswer(v){console.log('Kahoot answer:'+v);try{window.parent.postMessage({type:'web_input',value:v},'*');}catch(e){}try{window.top.postMessage({type:'web_input',value:v},'*');}catch(e){}try{window.postMessage({type:'web_input',value:v},'*');}catch(e){}}</script><div style='font-family:Arial;text-align:center;background:white;width:100%;height:100%;padding:20px;box-sizing:border-box;'><h1 style='font-size:46px;margin:10px;'>Find: EYE</h1><p style='font-size:30px;margin:5px;'>Touch eye.</p><div style='display:flex;justify-content:center;gap:25px;margin-top:25px;'><div onclick=\"sendAnswer('A')\" ontouchstart=\"sendAnswer('A')\" style='border:8px solid #ddd;border-radius:25px;padding:15px;background:#f7f7f7;cursor:pointer;'><img src='/static/user_assets/images/ear.png' style='width:180px;height:180px;object-fit:contain;'><div style='font-size:42px;font-weight:bold;'>A</div></div><div onclick=\"sendAnswer('B')\" ontouchstart=\"sendAnswer('B')\" style='border:8px solid #ddd;border-radius:25px;padding:15px;background:#f7f7f7;cursor:pointer;'><img src='/static/user_assets/images/eye.png' style='width:180px;height:180px;object-fit:contain;'><div style='font-size:42px;font-weight:bold;'>B</div></div><div onclick=\"sendAnswer('C')\" ontouchstart=\"sendAnswer('C')\" style='border:8px solid #ddd;border-radius:25px;padding:15px;background:#f7f7f7;cursor:pointer;'><img src='/static/user_assets/images/toes.png' style='width:180px;height:180px;object-fit:contain;'><div style='font-size:42px;font-weight:bold;'>C</div></div></div></div>"
+      },
+      { "type": "say", "character": "Narrator", "text": "Eye... eye... Touch eye." },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose A, B, or C",
+        "options": ["A", "B", "C"],
+        "timeout": 60,
+        "outcomes": { "B": "kahoot_q1_correct" },
+        "default_outcome": "kahoot_q1_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "kahoot_q1_correct": [
+            { "type": "show_image", "src": "assets/images/green_check.png" },
+            { "type": "play", "audio": "assets/audio/clap.wav" },
+            { "type": "show_html", "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+            { "type": "timed_wait", "duration_seconds": 2.5 },
+            { "type": "say", "character": "Narrator", "text": "Yes, perfect!" }
+          ],
+          "kahoot_q1_wrong": [
+            { "type": "show_image", "src": "assets/images/red_cross.png" },
+            { "type": "say", "character": "Narrator", "text": "Good try. It was eye." }
+          ]
+        }
+      },
+
+      {
+        "type": "show_html",
+        "html": "<div style='font-family:Arial;text-align:center;background:white;width:100%;height:100%;padding:20px;box-sizing:border-box;'><h1 style='font-size:46px;margin:10px;'>Find: EAR</h1><p style='font-size:30px;margin:5px;'>Touch ear.</p><div style='display:flex;justify-content:center;gap:25px;margin-top:25px;'><div onclick=\"window.parent.postMessage({type:'web_input', value:'A'}, '*')\" style='border:8px solid #ddd;border-radius:25px;padding:15px;background:#f7f7f7;cursor:pointer;'><img src='/static/user_assets/images/ear.png' style='width:180px;height:180px;object-fit:contain;'><div style='font-size:42px;font-weight:bold;'>A</div></div><div onclick=\"window.parent.postMessage({type:'web_input', value:'B'}, '*')\" style='border:8px solid #ddd;border-radius:25px;padding:15px;background:#f7f7f7;cursor:pointer;'><img src='/static/user_assets/images/eye.png' style='width:180px;height:180px;object-fit:contain;'><div style='font-size:42px;font-weight:bold;'>B</div></div><div onclick=\"window.parent.postMessage({type:'web_input', value:'C'}, '*')\" style='border:8px solid #ddd;border-radius:25px;padding:15px;background:#f7f7f7;cursor:pointer;'><img src='/static/user_assets/images/lips.png' style='width:180px;height:180px;object-fit:contain;'><div style='font-size:42px;font-weight:bold;'>C</div></div></div></div>"
+      },
+      { "type": "say", "character": "Narrator", "text": "Ear... ear... Touch ear." },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose A, B, or C",
+        "options": ["A", "B", "C"],
+        "timeout": 60,
+        "outcomes": { "A": "kahoot_q2_correct" },
+        "default_outcome": "kahoot_q2_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "kahoot_q2_correct": [
+            { "type": "show_image", "src": "assets/images/green_check.png" },
+            { "type": "play", "audio": "assets/audio/clap.wav" },
+            { "type": "show_html", "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+            { "type": "timed_wait", "duration_seconds": 2.5 },
+            { "type": "say", "character": "Narrator", "text": "Yes, perfect!" }
+          ],
+          "kahoot_q2_wrong": [
+            { "type": "show_image", "src": "assets/images/red_cross.png" },
+            { "type": "say", "character": "Narrator", "text": "Good try. It was ear." }
+          ]
+        }
+      },
+
+      {
+        "type": "show_html",
+        "html": "<div style='font-family:Arial;text-align:center;background:white;width:100%;height:100%;padding:20px;box-sizing:border-box;'><h1 style='font-size:46px;margin:10px;'>Find: NOSE</h1><p style='font-size:30px;margin:5px;'>Touch nose.</p><div style='display:flex;justify-content:center;gap:25px;margin-top:25px;'><div onclick=\"window.parent.postMessage({type:'web_input', value:'A'}, '*')\" style='border:8px solid #ddd;border-radius:25px;padding:15px;background:#f7f7f7;cursor:pointer;'><img src='/static/user_assets/images/nose.png' style='width:180px;height:180px;object-fit:contain;'><div style='font-size:42px;font-weight:bold;'>A</div></div><div onclick=\"window.parent.postMessage({type:'web_input', value:'B'}, '*')\" style='border:8px solid #ddd;border-radius:25px;padding:15px;background:#f7f7f7;cursor:pointer;'><img src='/static/user_assets/images/toes.png' style='width:180px;height:180px;object-fit:contain;'><div style='font-size:42px;font-weight:bold;'>B</div></div><div onclick=\"window.parent.postMessage({type:'web_input', value:'C'}, '*')\" style='border:8px solid #ddd;border-radius:25px;padding:15px;background:#f7f7f7;cursor:pointer;'><img src='/static/user_assets/images/mouth.png' style='width:180px;height:180px;object-fit:contain;'><div style='font-size:42px;font-weight:bold;'>C</div></div></div></div>"
+      },
+      { "type": "say", "character": "Narrator", "text": "Nose... nose... Touch nose." },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose A, B, or C",
+        "options": ["A", "B", "C"],
+        "timeout": 60,
+        "outcomes": { "A": "kahoot_q3_correct" },
+        "default_outcome": "kahoot_q3_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "kahoot_q3_correct": [
+            { "type": "show_image", "src": "assets/images/green_check.png" },
+            { "type": "play", "audio": "assets/audio/clap.wav" },
+            { "type": "show_html", "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+            { "type": "timed_wait", "duration_seconds": 2.5 },
+            { "type": "say", "character": "Narrator", "text": "Yes, perfect!" }
+          ],
+          "kahoot_q3_wrong": [
+            { "type": "show_image", "src": "assets/images/red_cross.png" },
+            { "type": "say", "character": "Narrator", "text": "Good try. It was nose." }
+          ]
+        }
+      },
+
+      {
+        "type": "show_html",
+        "html": "<div style='font-family:Arial;text-align:center;background:white;width:100%;height:100%;padding:20px;box-sizing:border-box;'><h1 style='font-size:46px;margin:10px;'>Find: MOUTH</h1><p style='font-size:30px;margin:5px;'>Touch mouth.</p><div style='display:flex;justify-content:center;gap:25px;margin-top:25px;'><div onclick=\"window.parent.postMessage({type:'web_input', value:'A'}, '*')\" style='border:8px solid #ddd;border-radius:25px;padding:15px;background:#f7f7f7;cursor:pointer;'><img src='/static/user_assets/images/mouth.png' style='width:180px;height:180px;object-fit:contain;'><div style='font-size:42px;font-weight:bold;'>A</div></div><div onclick=\"window.parent.postMessage({type:'web_input', value:'B'}, '*')\" style='border:8px solid #ddd;border-radius:25px;padding:15px;background:#f7f7f7;cursor:pointer;'><img src='/static/user_assets/images/nose.png' style='width:180px;height:180px;object-fit:contain;'><div style='font-size:42px;font-weight:bold;'>B</div></div><div onclick=\"window.parent.postMessage({type:'web_input', value:'C'}, '*')\" style='border:8px solid #ddd;border-radius:25px;padding:15px;background:#f7f7f7;cursor:pointer;'><img src='/static/user_assets/images/toes.png' style='width:180px;height:180px;object-fit:contain;'><div style='font-size:42px;font-weight:bold;'>C</div></div></div></div>"
+      },
+      { "type": "say", "character": "Narrator", "text": "Mouth... mouth... Touch mouth." },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose A, B, or C",
+        "options": ["A", "B", "C"],
+        "timeout": 60,
+        "outcomes": { "A": "kahoot_q4_correct" },
+        "default_outcome": "kahoot_q4_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "kahoot_q4_correct": [
+            { "type": "show_image", "src": "assets/images/green_check.png" },
+            { "type": "play", "audio": "assets/audio/clap.wav" },
+            { "type": "show_html", "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%; max-height:100%;'></video>" },
+            { "type": "timed_wait", "duration_seconds": 2.5 },
+            { "type": "say", "character": "Narrator", "text": "Yes, perfect!" }
+          ],
+          "kahoot_q4_wrong": [
+            { "type": "show_image", "src": "assets/images/red_cross.png" },
+            { "type": "say", "character": "Narrator", "text": "Good try. It was mouth." }
+          ]
+        }
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Great! This is the first half of the Kahoot game."
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "teaching_eye",
+    "type": "functional",
+    "functional_type": "greeting",
+    "moves": [
+      {
+        "type": "say",
+        "text": "this is an eye."
+      },
+      {
+        "type": "say",
+        "text": "what color is your eye?."
+      }
+    ]
+  }
+]
